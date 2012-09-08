@@ -128,3 +128,14 @@ aside {
   @extend .control-group;
   @extend .error;
 }
+
+ul.users {
+  li {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-top: 1px solid $grayLighter;
+    &:last-child {
+      border-bottom: 1px solid $grayLighter;
+    }
+  }
+}
